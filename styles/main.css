@@ -81,7 +81,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 944px; }
+    width: calc(200px * 4 + 48px * 3); }
 
 .product-card {
   -webkit-box-sizing: border-box;
