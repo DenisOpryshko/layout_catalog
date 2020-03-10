@@ -79,9 +79,10 @@ body {
   justify-content: center;
 
   &__container {
-    display: flex;
-    flex-wrap: wrap;
-    width: calc(200px * 4 + 48px * 3);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 50px 48px;
   }
 }
 
@@ -91,8 +92,6 @@ body {
   width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  margin-right: 48px;
-  margin-bottom: 50px;
   flex-direction: column;
 
   &:nth-child(4n+4) {
